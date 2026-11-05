@@ -1,0 +1,36 @@
+{
+  "rail-curve-short": {
+    "mountOpenings": 2,
+    "spanModule": 1,
+    "heightMm": 12,
+    "isDirectional": false,
+    "middleOpening": false,
+    "status": "type_count_user_confirmed"
+  },
+  "rail-curve-long": {
+    "mountOpenings": 3,
+    "spanModule": 2,
+    "heightMm": 12,
+    "isDirectional": false,
+    "middleOpening": true,
+    "alignment": "half-long aligns to short",
+    "status": "geometry_relative_user_confirmed"
+  },
+  "rail-s": {
+    "mountOpenings": 3,
+    "spanModule": 2,
+    "heightMm": 12,
+    "isDirectional": false,
+    "middleOpening": true,
+    "alignment": "half-S aligns to short",
+    "status": "geometry_relative_user_confirmed"
+  },
+  "special-xylophone": {
+    "mountOpenings": 2,
+    "spanModule": null,
+    "heightMm": "12mm end connectors",
+    "path": "SIDE→TOP lower level",
+    "dropUnits": "not measured; demo assumes 10 units",
+    "status": "ends_user_confirmed_dimensions_open"
+  }
+}
