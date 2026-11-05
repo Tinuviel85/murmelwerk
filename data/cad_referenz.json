@@ -1,0 +1,109 @@
+{
+  "version": "14 reference geometry",
+  "units": "mm",
+  "source": "Eigenständige, schematische Modelle auf Basis der Nutzerfotos; keine offiziellen Hape-Dateien.",
+  "status": "Binärdateien sind noch nicht in dieses Repository übertragen; die Dateien liegen im zuvor bereitgestellten Startpaket.",
+  "knownDimensions": {
+    "blockBody": [
+      44,
+      44,
+      60
+    ],
+    "pegHeight": 12,
+    "railThickness": 12,
+    "verticalGrid": 12
+  },
+  "notVerified": [
+    "Lochdurchmesser",
+    "Bohrungspositionen",
+    "Kurven- und Schienenabstände",
+    "innere Kanäle",
+    "mechanische Passgenauigkeit"
+  ],
+  "models": [
+    {
+      "id": "naturholz",
+      "path": "models/blocks/naturholz.glb",
+      "type": "block",
+      "bytes": 87580,
+      "uploaded": false
+    },
+    {
+      "id": "gelb",
+      "path": "models/blocks/gelb.glb",
+      "type": "block",
+      "bytes": 74200,
+      "uploaded": false
+    },
+    {
+      "id": "orange",
+      "path": "models/blocks/orange.glb",
+      "type": "block",
+      "bytes": 58392,
+      "uploaded": false
+    },
+    {
+      "id": "rot_verteiler",
+      "path": "models/blocks/rot_verteiler.glb",
+      "type": "block",
+      "bytes": 95688,
+      "uploaded": false
+    },
+    {
+      "id": "gruen",
+      "path": "models/blocks/gruen.glb",
+      "type": "block",
+      "bytes": 87568,
+      "uploaded": false
+    },
+    {
+      "id": "tuerkis",
+      "path": "models/blocks/tuerkis.glb",
+      "type": "block",
+      "bytes": 80840,
+      "uploaded": false
+    },
+    {
+      "id": "blau",
+      "path": "models/blocks/blau.glb",
+      "type": "block",
+      "bytes": 87564,
+      "uploaded": false
+    },
+    {
+      "id": "bodenplatte_12mm",
+      "path": "models/accessories/bodenplatte_12mm.glb",
+      "type": "foundation",
+      "bytes": 30140,
+      "uploaded": false
+    },
+    {
+      "id": "zwischenring_lila_12mm",
+      "path": "models/accessories/zwischenring_lila_12mm.glb",
+      "type": "spacer",
+      "bytes": 30148,
+      "uploaded": false
+    },
+    {
+      "id": "curve_short",
+      "path": "models/rails/curve_short.glb",
+      "type": "rail",
+      "bytes": 24588,
+      "uploaded": false
+    },
+    {
+      "id": "curve_large",
+      "path": "models/rails/curve_large.glb",
+      "type": "rail",
+      "bytes": 27824,
+      "uploaded": false
+    },
+    {
+      "id": "s_curve",
+      "path": "models/rails/s_curve.glb",
+      "type": "rail",
+      "bytes": 27784,
+      "uploaded": false
+    }
+  ]
+}
