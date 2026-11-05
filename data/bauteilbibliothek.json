@@ -1,0 +1,1894 @@
+{
+  "project": "Quadrilla 3D Generator V12",
+  "heightUnitMm": 12,
+  "standardBodyMm": [
+    44,
+    44,
+    60
+  ],
+  "pegHeightMm": 12,
+  "endspurtCycloneMelodyDefault": true,
+  "data": [
+    {
+      "id": "block-natural-plain",
+      "name": "Naturholzblock – ohne Aufdruck",
+      "category": "Blöcke",
+      "color": "#d7b58a",
+      "sourceSets": [
+        "E6008",
+        "E6009",
+        "E6021",
+        "E6019",
+        "E6024"
+      ],
+      "representation": "block",
+      "note": "Kugelwege vor Ort prüfen; möglicherweise gleicher Typ wie bedruckt.",
+      "verification": "Anschlussmaße und Kugelweg offen",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "user-confirmed",
+      "usableForGenerator": true,
+      "alsoKnownAs": [],
+      "genStatus": "confirmed",
+      "gridHeight": 5,
+      "nameDisplay": "Naturholzblock – ohne Aufdruck",
+      "demoSpanUnits": null,
+      "selectionStatus": "modelled-provisional",
+      "categoryLabel": "Blöcke",
+      "verifiedCounts": {},
+      "origin": "E6008 / E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 3,
+        "E6021": 1,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": {
+        "bodyHeightMm": 60,
+        "ports": [
+          "TOP",
+          "BOTTOM",
+          "SIDE_A",
+          "SIDE_B"
+        ],
+        "paths": [
+          {
+            "from": "TOP",
+            "to": "BOTTOM"
+          },
+          {
+            "from": "SIDE_A",
+            "to": "SIDE_B"
+          },
+          {
+            "from": "SIDE_B",
+            "to": "SIDE_A"
+          },
+          {
+            "from": "SIDE_A",
+            "to": "BOTTOM"
+          },
+          {
+            "from": "SIDE_B",
+            "to": "BOTTOM"
+          }
+        ],
+        "source": "user schematic",
+        "certainty": "user-confirmed"
+      }
+    },
+    {
+      "id": "support-base-wood",
+      "name": "Bodenplatte natur – 12 mm",
+      "category": "Stützen & Verbinder",
+      "color": "#e0c99e",
+      "representation": "ring",
+      "sourceSets": [
+        "Foto des Nutzers"
+      ],
+      "note": "Fundament auf Boden; 1 Rastereinheit (bestätigt)",
+      "genStatus": "base",
+      "gridHeight": 1,
+      "nameDisplay": "Bodenplatte natur – 12 mm",
+      "demoSpanUnits": null,
+      "selectionStatus": "modelled-provisional",
+      "categoryLabel": "Stützen",
+      "verifiedCounts": {},
+      "origin": "E6008 / E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 10,
+        "E6021": 4,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": {
+        "heightMm": 12,
+        "function": "foundation",
+        "source": "user photos",
+        "certainty": "user-confirmed"
+      }
+    },
+    {
+      "id": "block-blue",
+      "name": "Blauer Verteilerblock",
+      "category": "Blöcke",
+      "color": "#218ac5",
+      "sourceSets": [
+        "E6008",
+        "E6009",
+        "E6021",
+        "E6019",
+        "E6024"
+      ],
+      "representation": "block",
+      "note": "",
+      "verification": "Anschlussmaße und Kugelweg offen",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "user-confirmed",
+      "usableForGenerator": true,
+      "alsoKnownAs": [],
+      "genStatus": "confirmed",
+      "gridHeight": 5,
+      "nameDisplay": "Blauer Verteilerblock",
+      "demoSpanUnits": null,
+      "selectionStatus": "modelled-provisional",
+      "categoryLabel": "Blöcke",
+      "verifiedCounts": {},
+      "origin": "E6008 / E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 5,
+        "E6021": 1,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": {
+        "bodyHeightMm": 60,
+        "channels": [
+          {
+            "id": "A",
+            "paths": [
+              {
+                "from": "TOP",
+                "to": "SIDE_A"
+              }
+            ]
+          },
+          {
+            "id": "B",
+            "paths": [
+              {
+                "from": "SIDE_OPPOSITE_A",
+                "to": "BOTTOM"
+              }
+            ]
+          }
+        ],
+        "independent": true,
+        "source": "user annotated drawing, confirmed",
+        "certainty": "user-confirmed"
+      }
+    },
+    {
+      "id": "block-yellow",
+      "name": "Gelber Verteilerblock",
+      "category": "Blöcke",
+      "color": "#f2c91e",
+      "sourceSets": [
+        "E6008",
+        "E6009",
+        "E6021",
+        "E6019",
+        "E6024"
+      ],
+      "representation": "block",
+      "note": "",
+      "verification": "Anschlussmaße und Kugelweg offen",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "user-confirmed",
+      "usableForGenerator": true,
+      "alsoKnownAs": [],
+      "genStatus": "confirmed",
+      "gridHeight": 5,
+      "nameDisplay": "Gelber Verteilerblock",
+      "demoSpanUnits": null,
+      "selectionStatus": "modelled-provisional",
+      "categoryLabel": "Blöcke",
+      "verifiedCounts": {},
+      "origin": "E6008 / E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 5,
+        "E6021": 2,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": {
+        "bodyHeightMm": 60,
+        "ports": [
+          "TOP",
+          "SIDE_A"
+        ],
+        "paths": [
+          {
+            "from": "TOP",
+            "to": "SIDE_A"
+          }
+        ],
+        "rotations": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "source": "user section drawing",
+        "certainty": "user-confirmed"
+      }
+    },
+    {
+      "id": "block-green",
+      "name": "Grüner Verteilerblock",
+      "category": "Blöcke",
+      "color": "#37a761",
+      "sourceSets": [
+        "E6008",
+        "E6009",
+        "E6021",
+        "E6019",
+        "E6024"
+      ],
+      "representation": "block",
+      "note": "",
+      "verification": "Anschlussmaße und Kugelweg offen",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "user-confirmed",
+      "usableForGenerator": true,
+      "alsoKnownAs": [],
+      "genStatus": "confirmed",
+      "gridHeight": 5,
+      "nameDisplay": "Grüner Verteilerblock",
+      "demoSpanUnits": null,
+      "selectionStatus": "modelled-provisional",
+      "categoryLabel": "Blöcke",
+      "verifiedCounts": {},
+      "origin": "E6008 / E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 6,
+        "E6021": 1,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": {
+        "bodyHeightMm": 60,
+        "channels": [
+          {
+            "id": "A",
+            "paths": [
+              {
+                "from": "TOP",
+                "to": "SIDE_A"
+              }
+            ],
+            "plug": "independent"
+          },
+          {
+            "id": "B",
+            "plugRemoved": [
+              {
+                "from": "SIDE_B",
+                "to": "BOTTOM"
+              },
+              {
+                "from": "SIDE_C",
+                "to": "BOTTOM"
+              }
+            ],
+            "plugInstalled": [
+              {
+                "from": "SIDE_B",
+                "to": "SIDE_C"
+              },
+              {
+                "from": "SIDE_C",
+                "to": "SIDE_B"
+              }
+            ],
+            "consumesPlugInventoryId": "support-cover-wood"
+          }
+        ],
+        "source": "user annotated drawing and explanations",
+        "certainty": "user-confirmed"
+      }
+    },
+    {
+      "id": "block-orange",
+      "name": "Oranger Verteilerblock",
+      "category": "Blöcke",
+      "color": "#f5a638",
+      "sourceSets": [
+        "E6008",
+        "E6009",
+        "E6021",
+        "E6019",
+        "E6024"
+      ],
+      "representation": "block",
+      "note": "",
+      "verification": "Anschlussmaße und Kugelweg offen",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "user-confirmed",
+      "usableForGenerator": true,
+      "alsoKnownAs": [],
+      "genStatus": "confirmed",
+      "gridHeight": 5,
+      "nameDisplay": "Oranger Verteilerblock",
+      "demoSpanUnits": null,
+      "selectionStatus": "modelled-provisional",
+      "categoryLabel": "Blöcke",
+      "verifiedCounts": {},
+      "origin": "E6008 / E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 4,
+        "E6021": 1,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": {
+        "bodyHeightMm": 60,
+        "ports": [
+          "TOP",
+          "BOTTOM"
+        ],
+        "paths": [
+          {
+            "from": "TOP",
+            "to": "BOTTOM"
+          }
+        ],
+        "source": "user section drawing",
+        "certainty": "user-confirmed"
+      }
+    },
+    {
+      "id": "block-red-a",
+      "name": "Roter Block – Variante A",
+      "category": "Blöcke",
+      "color": "#e34f49",
+      "sourceSets": [
+        "E6008",
+        "E6009",
+        "E6021",
+        "E6019",
+        "E6024"
+      ],
+      "representation": "block",
+      "note": "Zwei gegenüberliegende Ausgänge bei Eingang oben; genaue Zuordnung zur roten Variante A bitte noch prüfen.",
+      "verification": "Anschlussmaße und Kugelweg offen",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "user-confirmed",
+      "usableForGenerator": true,
+      "alsoKnownAs": [],
+      "genStatus": "confirmed",
+      "gridHeight": 5,
+      "nameDisplay": "Roter Block – Variante A",
+      "demoSpanUnits": null,
+      "selectionStatus": "modelled-provisional",
+      "categoryLabel": "Blöcke",
+      "verifiedCounts": {},
+      "origin": "E6008 / E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 4,
+        "E6021": 1,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": {
+        "bodyHeightMm": 60,
+        "mode": "alternating splitter",
+        "paths": [
+          {
+            "from": "TOP",
+            "to": "SIDE_A"
+          },
+          {
+            "from": "TOP",
+            "to": "SIDE_OPPOSITE_A"
+          }
+        ],
+        "requiredContinuation": "both exits if top fed",
+        "wedgePerActiveSideOutput": 1,
+        "source": "user section drawing",
+        "certainty": "user-confirmed"
+      }
+    },
+    {
+      "id": "block-turquoise",
+      "name": "Türkiser Verteilerblock",
+      "category": "Blöcke",
+      "color": "#189f9e",
+      "sourceSets": [
+        "E6008",
+        "E6009",
+        "E6021",
+        "E6019",
+        "E6024"
+      ],
+      "representation": "block",
+      "note": "",
+      "verification": "Anschlussmaße und Kugelweg offen",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "user-confirmed",
+      "usableForGenerator": true,
+      "alsoKnownAs": [],
+      "genStatus": "confirmed",
+      "gridHeight": 5,
+      "nameDisplay": "Türkiser Verteilerblock",
+      "demoSpanUnits": null,
+      "selectionStatus": "modelled-provisional",
+      "categoryLabel": "Blöcke",
+      "verifiedCounts": {},
+      "origin": "E6008 / E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 7,
+        "E6021": 1,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": {
+        "bodyHeightMm": 60,
+        "channels": [
+          {
+            "id": "A",
+            "paths": [
+              {
+                "from": "TOP",
+                "to": "SIDE_A"
+              }
+            ]
+          },
+          {
+            "id": "B",
+            "paths": [
+              {
+                "from": "SIDE_B",
+                "to": "SIDE_C"
+              },
+              {
+                "from": "SIDE_C",
+                "to": "SIDE_B"
+              }
+            ]
+          }
+        ],
+        "bottomOutlet": false,
+        "source": "user section drawing",
+        "certainty": "user-confirmed"
+      }
+    },
+    {
+      "id": "support-ring-purple",
+      "name": "Stabilisierungsring – violett",
+      "category": "Stützen & Verbinder",
+      "color": "#6659a4",
+      "sourceSets": [
+        "E6008",
+        "E6009",
+        "E6021",
+        "E6019",
+        "E6024"
+      ],
+      "representation": "ring",
+      "note": "",
+      "verification": "Anschlussmaße und Kugelweg offen",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "unverified",
+      "usableForGenerator": true,
+      "alsoKnownAs": [],
+      "genStatus": "ring",
+      "gridHeight": 1,
+      "nameDisplay": "Stabilisierungsring – violett",
+      "demoSpanUnits": null,
+      "selectionStatus": "modelled-provisional",
+      "categoryLabel": "Stützen",
+      "verifiedCounts": {},
+      "origin": "E6008 / E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 20,
+        "E6021": 4,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": {
+        "heightMm": 12,
+        "function": "spacer",
+        "source": "user photo",
+        "certainty": "user-confirmed"
+      }
+    },
+    {
+      "id": "rail-straight-short",
+      "name": "Gerade Schiene – kurz",
+      "category": "Schienen",
+      "color": "#d8b58a",
+      "sourceSets": null,
+      "representation": "straight",
+      "note": "Holzschiene mit mehreren Öffnungen; genaue Portanzahl prüfen.",
+      "verification": {
+        "manualExistence": "bestätigt",
+        "route": "offen",
+        "height": "bestätigt",
+        "connection": "teilweise bekannt"
+      },
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": null,
+      "routingStatus": null,
+      "genStatus": "catalog",
+      "gridHeight": 1,
+      "routeConfirmed": false,
+      "usableForGenerator": false,
+      "mvpScope": false,
+      "origin": "Weitere Quadrilla-Sets",
+      "setQty": {
+        "E6008": 0,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "selectionStatus": "catalogue-future",
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "rail-straight-long",
+      "name": "Gerade Schiene – lang",
+      "category": "Schienen",
+      "color": "#d8b58a",
+      "sourceSets": null,
+      "representation": "straight",
+      "note": "Lange Holzschiene; genaue Anschlusspositionen prüfen.",
+      "verification": {
+        "manualExistence": "bestätigt",
+        "route": "offen",
+        "height": "bestätigt",
+        "connection": "teilweise bekannt"
+      },
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": null,
+      "routingStatus": null,
+      "genStatus": "catalog",
+      "gridHeight": 1,
+      "routeConfirmed": false,
+      "usableForGenerator": false,
+      "mvpScope": false,
+      "origin": "Weitere Quadrilla-Sets",
+      "setQty": {
+        "E6008": 0,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "selectionStatus": "catalogue-future",
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "rail-curve-short",
+      "name": "Kurvenschiene – kurz",
+      "category": "Schienen",
+      "color": "#d8b58a",
+      "sourceSets": [
+        "E6008",
+        "E6021",
+        "E6019",
+        "E6024"
+      ],
+      "representation": "curve",
+      "note": "Mittelpunkte/Lochabstand und geometrischen Bogen vermessen.",
+      "verification": "Anschlussmaße und Kugelweg offen",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "unverified",
+      "usableForGenerator": true,
+      "alsoKnownAs": [],
+      "genStatus": "provisional-rail",
+      "gridHeight": 1,
+      "nameDisplay": "Kurvenschiene – kurz",
+      "demoSpanUnits": 4,
+      "selectionStatus": "modelled-provisional",
+      "categoryLabel": "Schienen",
+      "verifiedCounts": {},
+      "origin": "E6008 / E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 5,
+        "E6021": 2,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": {
+        "heightMm": 12,
+        "openings": 2,
+        "path": "A↔B",
+        "halfModuleCount": 1,
+        "source": "user photo",
+        "certainty": "user-confirmed"
+      }
+    },
+    {
+      "id": "rail-curve-long",
+      "name": "Kurvenschiene – lang",
+      "category": "Schienen",
+      "color": "#d8b58a",
+      "sourceSets": [
+        "E6008"
+      ],
+      "representation": "curve",
+      "note": "Abstand Lochmitte–Lochmitte vermessen; Länge noch ungesichert.",
+      "verification": "Anschlusswege noch nicht verifiziert",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "unverified",
+      "usableForGenerator": false,
+      "genStatus": "provisional-rail",
+      "gridHeight": 1,
+      "nameDisplay": "Kurvenschiene – lang",
+      "selectionStatus": "inventory-only",
+      "categoryLabel": "Schienen",
+      "origin": "E6008",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 5,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": {
+        "heightMm": 12,
+        "openings": 3,
+        "portSequence": [
+          "A",
+          "MID",
+          "B"
+        ],
+        "path": "A↔B with mid as possible support/hand-off",
+        "halfModuleCount": 2,
+        "source": "user photo",
+        "certainty": "user-confirmed geometry relation; mid ball behavior pending"
+      }
+    },
+    {
+      "id": "accessory-bag",
+      "name": "Aufbewahrungsbeutel",
+      "category": "Zubehör",
+      "color": "#aaa9a3",
+      "sourceSets": [
+        "E6008",
+        "E6009",
+        "E6021",
+        "E6019",
+        "E6024"
+      ],
+      "representation": "bag",
+      "note": "Nicht in die Konstruktions-Toleranz einrechnen.",
+      "verification": "Anschlussmaße und Kugelweg offen",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "unverified",
+      "usableForGenerator": false,
+      "alsoKnownAs": [],
+      "genStatus": "catalog",
+      "gridHeight": 0,
+      "nameDisplay": "Aufbewahrungsbeutel",
+      "demoSpanUnits": null,
+      "selectionStatus": "inventory-only",
+      "categoryLabel": "Zubehör",
+      "verifiedCounts": {},
+      "origin": "E6008 / E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 1,
+        "E6021": 1,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "special-bucket-lid",
+      "name": "Behälterdeckel als Bahn",
+      "category": "Spezialelemente",
+      "color": "#a9aaa5",
+      "sourceSets": null,
+      "representation": "bowl",
+      "note": "Nur bei passenden neuen Bucket-Sets; manuelle Erfassung nach Prüfung.",
+      "verification": {
+        "manualExistence": "offen / aus bisherigem Katalog",
+        "route": "offen",
+        "height": "offen",
+        "connection": "offen"
+      },
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": null,
+      "routingStatus": null,
+      "genStatus": "catalog",
+      "gridHeight": 1,
+      "routeConfirmed": false,
+      "usableForGenerator": false,
+      "mvpScope": false,
+      "origin": "Weitere Quadrilla-Sets",
+      "setQty": {
+        "E6008": 0,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "selectionStatus": "catalogue-future",
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "support-accelerator-red",
+      "name": "Beschleuniger – roter Keil",
+      "category": "Stützen & Verbinder",
+      "color": "#d83635",
+      "sourceSets": [
+        "E6008",
+        "E6009",
+        "E6021",
+        "E6019",
+        "E6024"
+      ],
+      "representation": "wedge",
+      "note": "Bei jedem tatsächlich genutzten Weg TOP → SIDE erforderlich. Ein Keil pro Seitenabgang.",
+      "verification": "Anschlussmaße und Kugelweg offen",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "unverified",
+      "usableForGenerator": true,
+      "alsoKnownAs": [],
+      "genStatus": "catalog",
+      "gridHeight": 0,
+      "nameDisplay": "Beschleuniger – roter Keil",
+      "demoSpanUnits": null,
+      "selectionStatus": "inventory-only",
+      "categoryLabel": "Stützen",
+      "verifiedCounts": {},
+      "origin": "E6008 / E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 16,
+        "E6021": 3,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": {
+        "function": "wedge required at every used TOP→SIDE outlet, including splitter both outlets",
+        "source": "user photo",
+        "certainty": "user-confirmed"
+      }
+    },
+    {
+      "id": "accessory-marbles",
+      "name": "Glasmurmeln",
+      "category": "Zubehör",
+      "color": "#8691a1",
+      "sourceSets": [
+        "E6008",
+        "E6009",
+        "E6021",
+        "E6019",
+        "E6024"
+      ],
+      "representation": "marble",
+      "note": "Für Betrieb wichtig, aber nicht Bestandteil der baulichen Mindestnutzungs-Toleranz.",
+      "verification": "Anschlussmaße und Kugelweg offen",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "unverified",
+      "usableForGenerator": false,
+      "alsoKnownAs": [],
+      "genStatus": "catalog",
+      "gridHeight": 0,
+      "nameDisplay": "Glasmurmeln",
+      "demoSpanUnits": null,
+      "selectionStatus": "inventory-only",
+      "categoryLabel": "Zubehör",
+      "verifiedCounts": {},
+      "origin": "E6008 / E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 100,
+        "E6021": 30,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "special-bell",
+      "name": "Glockenmodul",
+      "category": "Spezialelemente",
+      "color": "#dc3438",
+      "sourceSets": null,
+      "representation": "bell",
+      "note": "",
+      "verification": {
+        "manualExistence": "bestätigt",
+        "route": "offen",
+        "height": "offen",
+        "connection": "offen"
+      },
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": null,
+      "routingStatus": null,
+      "genStatus": "catalog",
+      "gridHeight": 1,
+      "routeConfirmed": false,
+      "usableForGenerator": false,
+      "mvpScope": false,
+      "origin": "Weitere Quadrilla-Sets",
+      "setQty": {
+        "E6008": 0,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "selectionStatus": "catalogue-future",
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "rail-spiral-wood-large",
+      "name": "Holzspirale – großer Typ",
+      "category": "Schienen",
+      "color": "#d8b58a",
+      "sourceSets": [
+        "E6008"
+      ],
+      "representation": "spiral",
+      "note": "Zweite Größe laut E6008-Stückliste; Maße prüfen.",
+      "verification": "Anschlusswege noch nicht verifiziert",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "unverified",
+      "usableForGenerator": false,
+      "genStatus": "catalog",
+      "gridHeight": 1,
+      "nameDisplay": "Holzspirale – großer Typ",
+      "selectionStatus": "inventory-only",
+      "categoryLabel": "Schienen",
+      "origin": "E6008",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 1,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "rail-spiral-wood-small",
+      "name": "Holzspirale – kleiner Typ",
+      "category": "Schienen",
+      "color": "#d8b58a",
+      "sourceSets": [
+        "E6008",
+        "E6009",
+        "E6021",
+        "E6019"
+      ],
+      "representation": "spiral",
+      "note": "Spirale leitet die Murmel innerhalb des Elements.",
+      "verification": "Anschlussmaße und Kugelweg offen",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "unverified",
+      "usableForGenerator": true,
+      "alsoKnownAs": [],
+      "genStatus": "catalog",
+      "gridHeight": 0,
+      "nameDisplay": "Holzspirale – kleiner Typ",
+      "demoSpanUnits": 4,
+      "selectionStatus": "inventory-only",
+      "categoryLabel": "Schienen",
+      "verifiedCounts": {},
+      "origin": "E6008 / E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 1,
+        "E6021": 1,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "support-adjuster-wood",
+      "name": "Veralteter Platzhalter: naturfarbene 12-mm-Platte",
+      "category": "Stützen & Verbinder",
+      "color": "#d7b58a",
+      "sourceSets": null,
+      "representation": "ring",
+      "note": "Hape zeigt: mehrere Ringe ergeben ungefähr eine Blockhöhe. Exakte Dicke vermessen.",
+      "verification": {
+        "manualExistence": "offen / aus bisherigem Katalog",
+        "route": "offen",
+        "height": "offen",
+        "connection": "offen"
+      },
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": null,
+      "routingStatus": null,
+      "genStatus": "catalog",
+      "gridHeight": 1,
+      "routeConfirmed": false,
+      "usableForGenerator": false,
+      "mvpScope": false,
+      "origin": "Weitere Quadrilla-Sets",
+      "setQty": {
+        "E6008": 0,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "selectionStatus": "catalogue-future",
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "support-cover-wood",
+      "name": "Lochabdeckung – Holz",
+      "category": "Stützen & Verbinder",
+      "color": "#d7b58a",
+      "sourceSets": [
+        "E6008",
+        "E6009",
+        "E6021",
+        "E6019",
+        "E6024"
+      ],
+      "representation": "cover",
+      "note": "",
+      "verification": "Anschlussmaße und Kugelweg offen",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "unverified",
+      "usableForGenerator": true,
+      "alsoKnownAs": [],
+      "genStatus": "confirmed-accessory",
+      "gridHeight": 0,
+      "nameDisplay": "Lochabdeckung – Holz",
+      "demoSpanUnits": null,
+      "selectionStatus": "inventory-only",
+      "categoryLabel": "Stützen",
+      "verifiedCounts": {},
+      "origin": "E6008 / E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 5,
+        "E6021": 2,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": {
+        "function": "closes downward opening in green block B channel; converts to horizontal pass-through",
+        "source": "user",
+        "certainty": "user-confirmed"
+      }
+    },
+    {
+      "id": "special-catcher",
+      "name": "Murmelfänger",
+      "category": "Spezialelemente",
+      "color": "#c5413b",
+      "sourceSets": null,
+      "representation": "bowl",
+      "note": "Endpunkt der Kugelwege; es gibt unterschiedliche Ausführungen, die zu prüfen sind.",
+      "verification": {
+        "manualExistence": "bestätigt",
+        "route": "offen",
+        "height": "offen",
+        "connection": "offen"
+      },
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": null,
+      "routingStatus": null,
+      "genStatus": "catalog",
+      "gridHeight": 1,
+      "routeConfirmed": false,
+      "usableForGenerator": false,
+      "mvpScope": false,
+      "origin": "Weitere Quadrilla-Sets",
+      "setQty": {
+        "E6008": 0,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "selectionStatus": "catalogue-future",
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "block-natural-print",
+      "name": "Naturholzblock – mit Aufdruck",
+      "category": "Blöcke",
+      "color": "#d0aa77",
+      "sourceSets": [
+        "E6008",
+        "E6009",
+        "E6021",
+        "E6019",
+        "E6024"
+      ],
+      "representation": "block",
+      "note": "Vorläufig getrennt: Branding/Aufdruck könnte statt Funktionsunterschied das einzige Merkmal sein.",
+      "verification": "Prüfen, ob geometrisch identisch mit unbedruckt",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "probable-identical-to-natural",
+      "usableForGenerator": true,
+      "alsoKnownAs": [],
+      "genStatus": "pending-comparison",
+      "gridHeight": 5,
+      "nameDisplay": "Naturholzblock – mit Aufdruck",
+      "demoSpanUnits": null,
+      "selectionStatus": "inventory-only",
+      "categoryLabel": "Blöcke",
+      "verifiedCounts": {},
+      "origin": "E6008 / E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 1,
+        "E6021": 1,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "special-orange-disc",
+      "name": "Oranges Drehelement / Auffangschale",
+      "category": "Spezialelemente",
+      "color": "#ed9432",
+      "sourceSets": null,
+      "representation": "bowl",
+      "note": "Genaues Funktionsprinzip und Anschlusslage prüfen.",
+      "verification": {
+        "manualExistence": "bestätigt",
+        "route": "offen",
+        "height": "offen",
+        "connection": "offen"
+      },
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": null,
+      "routingStatus": null,
+      "genStatus": "catalog",
+      "gridHeight": 1,
+      "routeConfirmed": false,
+      "usableForGenerator": false,
+      "mvpScope": false,
+      "origin": "Weitere Quadrilla-Sets",
+      "setQty": {
+        "E6008": 0,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "selectionStatus": "catalogue-future",
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "block-red-b",
+      "name": "Roter Block B – zweite Abbildung",
+      "category": "Blöcke",
+      "color": "#bc3937",
+      "sourceSets": [
+        "E6008"
+      ],
+      "representation": "block",
+      "note": "Vorläufig getrennt erfasst: Die Stücklisten zeigen zwei getrennt gezählte rote Varianten.",
+      "verification": "Anschlusswege noch nicht verifiziert",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "unverified",
+      "usableForGenerator": false,
+      "genStatus": "catalog",
+      "gridHeight": 5,
+      "nameDisplay": "Roter Block B – zweite Abbildung",
+      "selectionStatus": "inventory-only",
+      "categoryLabel": "Blöcke",
+      "origin": "E6008",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 1,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "special-red-funnel",
+      "name": "Roter Trichter / Murmelsammler",
+      "category": "Spezialelemente",
+      "color": "#cc3a37",
+      "sourceSets": null,
+      "representation": "bowl",
+      "note": "Form ähnlich kleinem rotem Trichter; Eingang/Ausgang vermessen.",
+      "verification": {
+        "manualExistence": "bestätigt",
+        "route": "offen",
+        "height": "offen",
+        "connection": "offen"
+      },
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": null,
+      "routingStatus": null,
+      "genStatus": "catalog",
+      "gridHeight": 1,
+      "routeConfirmed": false,
+      "usableForGenerator": false,
+      "mvpScope": false,
+      "origin": "Weitere Quadrilla-Sets",
+      "setQty": {
+        "E6008": 0,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "selectionStatus": "catalogue-future",
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "rail-s",
+      "name": "S-förmige Schiene",
+      "category": "Schienen",
+      "color": "#d8b58a",
+      "sourceSets": [
+        "E6008"
+      ],
+      "representation": "srail",
+      "note": "S-Bogen hat eigenen Kollisionskörper, auch bei kompatiblen Endlochabständen.",
+      "verification": "Anschlusswege noch nicht verifiziert",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "unverified",
+      "usableForGenerator": false,
+      "genStatus": "provisional-rail",
+      "gridHeight": 1,
+      "nameDisplay": "S-förmige Schiene",
+      "selectionStatus": "inventory-only",
+      "categoryLabel": "Schienen",
+      "origin": "E6008",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 2,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": {
+        "heightMm": 12,
+        "openings": 3,
+        "portSequence": [
+          "A",
+          "MID",
+          "B"
+        ],
+        "path": "A↔B with mid as possible support/hand-off",
+        "halfModuleCount": 2,
+        "source": "user photo",
+        "certainty": "user-confirmed geometry relation; mid ball behavior pending"
+      }
+    },
+    {
+      "id": "special-spiral-gutter",
+      "name": "Spiralrinne – rot",
+      "category": "Spezialelemente",
+      "color": "#df3434",
+      "sourceSets": null,
+      "representation": "spiral",
+      "note": "Rote große Spirale: nicht identisch mit Holzspiralen.",
+      "verification": {
+        "manualExistence": "bestätigt",
+        "route": "offen",
+        "height": "offen",
+        "connection": "offen"
+      },
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": null,
+      "routingStatus": null,
+      "genStatus": "catalog",
+      "gridHeight": 1,
+      "routeConfirmed": false,
+      "usableForGenerator": false,
+      "mvpScope": false,
+      "origin": "Weitere Quadrilla-Sets",
+      "setQty": {
+        "E6008": 0,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "selectionStatus": "catalogue-future",
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "special-turquoise-tower",
+      "name": "Türkisfarbener Stützturm / Durchlauf",
+      "category": "Spezialelemente",
+      "color": "#1c9d9c",
+      "sourceSets": null,
+      "representation": "tower",
+      "note": "Langer aufrechter Körper; Ein-/Auslaufpunkte und Höhe vermessen.",
+      "verification": {
+        "manualExistence": "bestätigt",
+        "route": "offen",
+        "height": "offen",
+        "connection": "offen"
+      },
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": null,
+      "routingStatus": null,
+      "genStatus": "catalog",
+      "gridHeight": 1,
+      "routeConfirmed": false,
+      "usableForGenerator": false,
+      "mvpScope": false,
+      "origin": "Weitere Quadrilla-Sets",
+      "setQty": {
+        "E6008": 0,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "selectionStatus": "catalogue-future",
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "special-orange-control",
+      "name": "Verstellbarer Steuerblock – orange",
+      "category": "Spezialelemente",
+      "color": "#ed9d2c",
+      "sourceSets": null,
+      "representation": "block",
+      "note": "Hape E6025: verschiedene einstellbare Richtungen.",
+      "verification": {
+        "manualExistence": "offen / aus bisherigem Katalog",
+        "route": "offen",
+        "height": "offen",
+        "connection": "offen"
+      },
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": null,
+      "routingStatus": null,
+      "genStatus": "catalog",
+      "gridHeight": 1,
+      "routeConfirmed": false,
+      "usableForGenerator": false,
+      "mvpScope": false,
+      "origin": "Weitere Quadrilla-Sets",
+      "setQty": {
+        "E6008": 0,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "selectionStatus": "catalogue-future",
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "special-fan-wheel",
+      "name": "Windmühlenrad mit Propeller",
+      "category": "Spezialelemente",
+      "color": "#6053a7",
+      "sourceSets": [
+        "E6021"
+      ],
+      "representation": "fan",
+      "note": "Auf dem Foto des Nutzers erkennbar; Befestigung separat zählen.",
+      "verification": "Anschlussmaße und Kugelweg offen",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "unverified",
+      "usableForGenerator": true,
+      "alsoKnownAs": [],
+      "genStatus": "catalog",
+      "gridHeight": 0,
+      "nameDisplay": "Windmühlenrad mit Propeller",
+      "demoSpanUnits": null,
+      "selectionStatus": "inventory-only",
+      "categoryLabel": "Spezialteile",
+      "verifiedCounts": {},
+      "origin": "E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 0,
+        "E6021": 1,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "special-fan-clamp",
+      "name": "Windradhalter / Klemme",
+      "category": "Spezialelemente",
+      "color": "#dc3438",
+      "sourceSets": [
+        "E6021",
+        "E6019"
+      ],
+      "representation": "clamp",
+      "note": "",
+      "verification": "Anschlussmaße und Kugelweg offen",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "unverified",
+      "usableForGenerator": true,
+      "alsoKnownAs": [],
+      "genStatus": "catalog",
+      "gridHeight": 0,
+      "nameDisplay": "Windradhalter / Klemme",
+      "demoSpanUnits": null,
+      "selectionStatus": "inventory-only",
+      "categoryLabel": "Spezialteile",
+      "verifiedCounts": {},
+      "origin": "E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 0,
+        "E6021": 1,
+        "Einzelteil": 0
+      },
+      "mvpScope": true,
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "special-blue-seesaw",
+      "name": "Wippe – blau",
+      "category": "Spezialelemente",
+      "color": "#2879bc",
+      "sourceSets": null,
+      "representation": "seesaw",
+      "note": "Hape E6025: Abgabe nach unten oder zur Seite.",
+      "verification": {
+        "manualExistence": "offen / aus bisherigem Katalog",
+        "route": "offen",
+        "height": "offen",
+        "connection": "offen"
+      },
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": null,
+      "routingStatus": null,
+      "genStatus": "catalog",
+      "gridHeight": 1,
+      "routeConfirmed": false,
+      "usableForGenerator": false,
+      "mvpScope": false,
+      "origin": "Weitere Quadrilla-Sets",
+      "setQty": {
+        "E6008": 0,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "selectionStatus": "catalogue-future",
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "special-green-seesaw",
+      "name": "Wippe – grün",
+      "category": "Spezialelemente",
+      "color": "#30944f",
+      "sourceSets": null,
+      "representation": "seesaw",
+      "note": "Hape E6025: sammelt 3–4 Murmeln und kippt dann.",
+      "verification": {
+        "manualExistence": "offen / aus bisherigem Katalog",
+        "route": "offen",
+        "height": "offen",
+        "connection": "offen"
+      },
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": null,
+      "routingStatus": null,
+      "genStatus": "catalog",
+      "gridHeight": 1,
+      "routeConfirmed": false,
+      "usableForGenerator": false,
+      "mvpScope": false,
+      "origin": "Weitere Quadrilla-Sets",
+      "setQty": {
+        "E6008": 0,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "selectionStatus": "catalogue-future",
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "special-red-seesaw",
+      "name": "Wippe – rot",
+      "category": "Spezialelemente",
+      "color": "#d93433",
+      "sourceSets": null,
+      "representation": "seesaw",
+      "note": "Hape E6025: zufällige Verteilung links/rechts.",
+      "verification": {
+        "manualExistence": "bestätigt",
+        "route": "offen",
+        "height": "offen",
+        "connection": "offen"
+      },
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": null,
+      "routingStatus": null,
+      "genStatus": "catalog",
+      "gridHeight": 1,
+      "routeConfirmed": false,
+      "usableForGenerator": false,
+      "mvpScope": false,
+      "origin": "Weitere Quadrilla-Sets",
+      "setQty": {
+        "E6008": 0,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "selectionStatus": "catalogue-future",
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "special-xylophone",
+      "name": "Melodietreppe – Xylophon-Schiene",
+      "category": "Spezialelemente",
+      "color": "#147dc0",
+      "sourceSets": [
+        "E6022"
+      ],
+      "representation": "xylophone",
+      "note": "Schräg montierte Melodietreppe; Höhendifferenz vorläufig 5 × 12 mm, Anschlussabstand offen.",
+      "verification": "Anschlussmaße und Kugelweg offen",
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": "not_measured",
+      "routingStatus": "provisional",
+      "usableForGenerator": true,
+      "alsoKnownAs": [],
+      "genStatus": "provisional-slope",
+      "gridHeight": 1,
+      "nameDisplay": "Melodietreppe – Xylophon-Schiene",
+      "demoSpanUnits": 4,
+      "selectionStatus": "inventory-only",
+      "categoryLabel": "Spezialteile",
+      "verifiedCounts": {},
+      "origin": "E6021",
+      "routeConfirmed": false,
+      "setQty": {
+        "E6008": 0,
+        "E6021": 0,
+        "Einzelteil": 1
+      },
+      "mvpScope": true,
+      "riseGridUnits": 5,
+      "riseVerified": false,
+      "notes": "Melodietreppe geneigt; 5 Rastereinheiten Höhenunterschied ist Annahme und muss geprüft werden.",
+      "technicalRoutingV12": {
+        "endConnectorHeightMm": 12,
+        "ports": [
+          "SIDE_IN",
+          "TOP_OUT_LOWER"
+        ],
+        "path": {
+          "from": "SIDE_IN",
+          "to": "TOP_IN_OF_NEXT_BLOCK"
+        },
+        "lengthMm": null,
+        "dropMm": null,
+        "demoOnlyDropUnits": 10,
+        "source": "user photo",
+        "certainty": "user-confirmed ends; physical measurements pending"
+      }
+    },
+    {
+      "id": "special-disc-turquoise",
+      "name": "Türkise Scheibe / Aktionsmodul",
+      "category": "Spezialelemente",
+      "color": "#1b99a3",
+      "sourceSets": null,
+      "representation": "disc",
+      "note": "Auf E6020, Druckseite 2, als türkisfarbene Scheibe; Funktion ungeprüft.",
+      "verification": {
+        "manualExistence": "bestätigt",
+        "route": "offen",
+        "height": "offen",
+        "connection": "offen"
+      },
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": null,
+      "routingStatus": null,
+      "genStatus": "catalog",
+      "gridHeight": 1,
+      "routeConfirmed": false,
+      "usableForGenerator": false,
+      "mvpScope": false,
+      "origin": "Weitere Quadrilla-Sets",
+      "setQty": {
+        "E6008": 0,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "selectionStatus": "catalogue-future",
+      "technicalRoutingV12": null
+    },
+    {
+      "id": "special-disc-green",
+      "name": "Grüne Scheibe / Aktionsmodul",
+      "category": "Spezialelemente",
+      "color": "#76b648",
+      "sourceSets": null,
+      "representation": "disc",
+      "note": "Auf E6020, Druckseite 2 und Bauanleitung Druckseite 6, als grünes Scheibenelement; Funktion ungeprüft.",
+      "verification": {
+        "manualExistence": "bestätigt",
+        "route": "offen",
+        "height": "offen",
+        "connection": "offen"
+      },
+      "geometryMm": null,
+      "ports": null,
+      "paths": null,
+      "measurementStatus": null,
+      "routingStatus": null,
+      "genStatus": "catalog",
+      "gridHeight": 1,
+      "routeConfirmed": false,
+      "usableForGenerator": false,
+      "mvpScope": false,
+      "origin": "Weitere Quadrilla-Sets",
+      "setQty": {
+        "E6008": 0,
+        "E6021": 0,
+        "Einzelteil": 0
+      },
+      "selectionStatus": "catalogue-future",
+      "technicalRoutingV12": null
+    }
+  ],
+  "routingRules": {
+    "block-natural-plain": {
+      "bodyHeightMm": 60,
+      "ports": [
+        "TOP",
+        "BOTTOM",
+        "SIDE_A",
+        "SIDE_B"
+      ],
+      "paths": [
+        {
+          "from": "TOP",
+          "to": "BOTTOM"
+        },
+        {
+          "from": "SIDE_A",
+          "to": "SIDE_B"
+        },
+        {
+          "from": "SIDE_B",
+          "to": "SIDE_A"
+        },
+        {
+          "from": "SIDE_A",
+          "to": "BOTTOM"
+        },
+        {
+          "from": "SIDE_B",
+          "to": "BOTTOM"
+        }
+      ],
+      "source": "user schematic",
+      "certainty": "user-confirmed"
+    },
+    "block-yellow": {
+      "bodyHeightMm": 60,
+      "ports": [
+        "TOP",
+        "SIDE_A"
+      ],
+      "paths": [
+        {
+          "from": "TOP",
+          "to": "SIDE_A"
+        }
+      ],
+      "rotations": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "source": "user section drawing",
+      "certainty": "user-confirmed"
+    },
+    "block-orange": {
+      "bodyHeightMm": 60,
+      "ports": [
+        "TOP",
+        "BOTTOM"
+      ],
+      "paths": [
+        {
+          "from": "TOP",
+          "to": "BOTTOM"
+        }
+      ],
+      "source": "user section drawing",
+      "certainty": "user-confirmed"
+    },
+    "block-green": {
+      "bodyHeightMm": 60,
+      "channels": [
+        {
+          "id": "A",
+          "paths": [
+            {
+              "from": "TOP",
+              "to": "SIDE_A"
+            }
+          ],
+          "plug": "independent"
+        },
+        {
+          "id": "B",
+          "plugRemoved": [
+            {
+              "from": "SIDE_B",
+              "to": "BOTTOM"
+            },
+            {
+              "from": "SIDE_C",
+              "to": "BOTTOM"
+            }
+          ],
+          "plugInstalled": [
+            {
+              "from": "SIDE_B",
+              "to": "SIDE_C"
+            },
+            {
+              "from": "SIDE_C",
+              "to": "SIDE_B"
+            }
+          ],
+          "consumesPlugInventoryId": "support-cover-wood"
+        }
+      ],
+      "source": "user annotated drawing and explanations",
+      "certainty": "user-confirmed"
+    },
+    "block-turquoise": {
+      "bodyHeightMm": 60,
+      "channels": [
+        {
+          "id": "A",
+          "paths": [
+            {
+              "from": "TOP",
+              "to": "SIDE_A"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "paths": [
+            {
+              "from": "SIDE_B",
+              "to": "SIDE_C"
+            },
+            {
+              "from": "SIDE_C",
+              "to": "SIDE_B"
+            }
+          ]
+        }
+      ],
+      "bottomOutlet": false,
+      "source": "user section drawing",
+      "certainty": "user-confirmed"
+    },
+    "block-blue": {
+      "bodyHeightMm": 60,
+      "channels": [
+        {
+          "id": "A",
+          "paths": [
+            {
+              "from": "TOP",
+              "to": "SIDE_A"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "paths": [
+            {
+              "from": "SIDE_OPPOSITE_A",
+              "to": "BOTTOM"
+            }
+          ]
+        }
+      ],
+      "independent": true,
+      "source": "user annotated drawing, confirmed",
+      "certainty": "user-confirmed"
+    },
+    "block-red-a": {
+      "bodyHeightMm": 60,
+      "mode": "alternating splitter",
+      "paths": [
+        {
+          "from": "TOP",
+          "to": "SIDE_A"
+        },
+        {
+          "from": "TOP",
+          "to": "SIDE_OPPOSITE_A"
+        }
+      ],
+      "requiredContinuation": "both exits if top fed",
+      "wedgePerActiveSideOutput": 1,
+      "source": "user section drawing",
+      "certainty": "user-confirmed"
+    },
+    "rail-curve-short": {
+      "heightMm": 12,
+      "openings": 2,
+      "path": "A↔B",
+      "halfModuleCount": 1,
+      "source": "user photo",
+      "certainty": "user-confirmed"
+    },
+    "rail-curve-long": {
+      "heightMm": 12,
+      "openings": 3,
+      "portSequence": [
+        "A",
+        "MID",
+        "B"
+      ],
+      "path": "A↔B with mid as possible support/hand-off",
+      "halfModuleCount": 2,
+      "source": "user photo",
+      "certainty": "user-confirmed geometry relation; mid ball behavior pending"
+    },
+    "rail-s": {
+      "heightMm": 12,
+      "openings": 3,
+      "portSequence": [
+        "A",
+        "MID",
+        "B"
+      ],
+      "path": "A↔B with mid as possible support/hand-off",
+      "halfModuleCount": 2,
+      "source": "user photo",
+      "certainty": "user-confirmed geometry relation; mid ball behavior pending"
+    },
+    "special-xylophone": {
+      "endConnectorHeightMm": 12,
+      "ports": [
+        "SIDE_IN",
+        "TOP_OUT_LOWER"
+      ],
+      "path": {
+        "from": "SIDE_IN",
+        "to": "TOP_IN_OF_NEXT_BLOCK"
+      },
+      "lengthMm": null,
+      "dropMm": null,
+      "demoOnlyDropUnits": 10,
+      "source": "user photo",
+      "certainty": "user-confirmed ends; physical measurements pending"
+    },
+    "support-base-wood": {
+      "heightMm": 12,
+      "function": "foundation",
+      "source": "user photos",
+      "certainty": "user-confirmed"
+    },
+    "support-ring-purple": {
+      "heightMm": 12,
+      "function": "spacer",
+      "source": "user photo",
+      "certainty": "user-confirmed"
+    },
+    "support-accelerator-red": {
+      "function": "wedge required at every used TOP→SIDE outlet, including splitter both outlets",
+      "source": "user photo",
+      "certainty": "user-confirmed"
+    },
+    "support-cover-wood": {
+      "function": "closes downward opening in green block B channel; converts to horizontal pass-through",
+      "source": "user",
+      "certainty": "user-confirmed"
+    }
+  },
+  "remarks": [
+    "Side_out is NOT bottom_out.",
+    "All active outlets need a connected rail/block; splitter both sides required.",
+    "Rail-to-rail mounting mechanically permitted in reference photo but metric coupling not yet verified.",
+    "Three-hole rail middle support is not modeled as automatic marble branch.",
+    "Unmeasured XY spacing prevents guarantee of real construction."
+  ]
+}
