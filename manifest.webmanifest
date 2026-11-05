@@ -1,0 +1,9 @@
+{
+  "name": "Murmelwerk",
+  "version": "0.13.0",
+  "description": "3D-Murmelbahngenerator auf modularer Rasterbasis",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f4f0",
+  "theme_color": "#216654"
+}
